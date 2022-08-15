@@ -1,64 +1,64 @@
-@import "bootstrap/mixins/banner";
+@import "bootstrap-5/mixins/banner";
 @include bsBanner(Grid);
 
 $include-column-box-sizing: true !default;
 
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap/maps";
+@import "bootstrap-5/functions";
+@import "bootstrap-5/variables";
+@import "bootstrap-5/maps";
 
-@import "bootstrap/mixins/lists";
-@import "bootstrap/mixins/breakpoints";
-@import "bootstrap/mixins/container";
-@import "bootstrap/mixins/grid";
-@import "bootstrap/mixins/utilities";
+@import "bootstrap-5/mixins/lists";
+@import "bootstrap-5/mixins/breakpoints";
+@import "bootstrap-5/mixins/container";
+@import "bootstrap-5/mixins/grid";
+@import "bootstrap-5/mixins/utilities";
 
-@import "bootstrap/vendor/rfs";
+@import "bootstrap-5/vendor/rfs";
 
-@import "bootstrap/root";
+@import "bootstrap-5/root";
 
-@import "bootstrap/containers";
-@import "bootstrap/grid";
+@import "bootstrap-5/containers";
+@import "bootstrap-5/grid";
 
-@import "bootstrap/utilities";
+@import "bootstrap-5/utilities";
 // Only use the utilities we need
 // stylelint-disable-next-line scss/dollar-variable-default
 $utilities: map-get-multiple(
   $utilities,
   (
-    "bootstrap/display",
-    "bootstrap/order",
-    "bootstrap/flex",
-    "bootstrap/flex-direction",
-    "bootstrap/flex-grow",
-    "bootstrap/flex-shrink",
-    "bootstrap/flex-wrap",
-    "bootstrap/justify-content",
-    "bootstrap/align-items",
-    "bootstrap/align-content",
-    "bootstrap/align-self",
-    "bootstrap/margin",
-    "bootstrap/margin-x",
-    "bootstrap/margin-y",
-    "bootstrap/margin-top",
-    "bootstrap/margin-end",
-    "bootstrap/margin-bottom",
-    "bootstrap/margin-start",
-    "bootstrap/negative-margin",
-    "bootstrap/negative-margin-x",
-    "bootstrap/negative-margin-y",
-    "bootstrap/negative-margin-top",
-    "bootstrap/negative-margin-end",
-    "bootstrap/negative-margin-bottom",
-    "bootstrap/negative-margin-start",
-    "bootstrap/padding",
-    "bootstrap/padding-x",
-    "bootstrap/padding-y",
-    "bootstrap/padding-top",
-    "bootstrap/padding-end",
-    "bootstrap/padding-bottom",
-    "bootstrap/padding-start",
+    "bootstrap-5/display",
+    "bootstrap-5/order",
+    "bootstrap-5/flex",
+    "bootstrap-5/flex-direction",
+    "bootstrap-5/flex-grow",
+    "bootstrap-5/flex-shrink",
+    "bootstrap-5/flex-wrap",
+    "bootstrap-5/justify-content",
+    "bootstrap-5/align-items",
+    "bootstrap-5/align-content",
+    "bootstrap-5/align-self",
+    "bootstrap-5/margin",
+    "bootstrap-5/margin-x",
+    "bootstrap-5/margin-y",
+    "bootstrap-5/margin-top",
+    "bootstrap-5/margin-end",
+    "bootstrap-5/margin-bottom",
+    "bootstrap-5/margin-start",
+    "bootstrap-5/negative-margin",
+    "bootstrap-5/negative-margin-x",
+    "bootstrap-5/negative-margin-y",
+    "bootstrap-5/negative-margin-top",
+    "bootstrap-5/negative-margin-end",
+    "bootstrap-5/negative-margin-bottom",
+    "bootstrap-5/negative-margin-start",
+    "bootstrap-5/padding",
+    "bootstrap-5/padding-x",
+    "bootstrap-5/padding-y",
+    "bootstrap-5/padding-top",
+    "bootstrap-5/padding-end",
+    "bootstrap-5/padding-bottom",
+    "bootstrap-5/padding-start",
   )
 );
 
-@import "bootstrap/utilities/api";
+@import "bootstrap-5/utilities/api";
